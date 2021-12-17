@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="JOffice Calculator WebApp" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <title>JOffice Calculator</title>
+</head>
+
+<body>
+    <div id="app-container">
+        <div class="calculator-grid">
+            <div class="output">
+                <div data-prev-op id="prev-op"></div>
+                <div data-curr-op id="curr-op">0</div>
+            </div>
+            <button data-clear class="span-two" id="clear-btn">AC</button>
+            <button data-delete id="delete-btn">DEL</button>
+            <button data-operation class="operation">/</button>
+            <button data-number class="number-btn">1</button>
+            <button data-number class="number-btn">2</button>
+            <button data-number class="number-btn">3</button>
+            <button data-operation class="operation">*</button>
+            <button data-number class="number-btn">4</button>
+            <button data-number class="number-btn">5</button>
+            <button data-number class="number-btn">6</button>
+            <button data-operation class="operation">+</button>
+            <button data-number class="number-btn">7</button>
+            <button data-number class="number-btn">8</button>
+            <button data-number class="number-btn">9</button>
+            <button data-operation class="operation">-</button>
+            <button data-number>.</button>
+            <button data-number class="number-btn">0</button>
+            <button data-equals class="span-two" id="equals-btn">=</button>
+        </div>
+    </div>
+    <script src="../index.js" type="module"></script>
+</body>
+
+</html>
